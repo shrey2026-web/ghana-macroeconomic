@@ -33,3 +33,16 @@ python scripts/reproduce_imf_ghana_dataset.py
 
 - The script relies only on Python standard library modules.
 - This is a data reproduction/alignment artifact, not a full textual recreation of the IMF paper.
+
+
+## Direct-from-paper dataset (no CSV source inputs)
+
+To reproduce a dataset directly from `IMF paper.pdf` (table transcription, 2022–2028):
+
+```bash
+python scripts/reproduce_from_imf_paper_pdf.py
+```
+
+Output:
+
+- `reproduced/imf_paper_ghana_selected_indicators_2022_2028.csv`
